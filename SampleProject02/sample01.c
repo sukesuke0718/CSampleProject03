@@ -10,9 +10,7 @@ int	main(void){
 
 	if (number > 0) {
 		for (int i = 0; i <= number; i++) {
-			printf("%d", i + 1);
-			printf(" : ");
-			printf("%s\n", moji);
+			printf("%d : %s\n", i + 1, moji);
 		}
 	}
 	else {
